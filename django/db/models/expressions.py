@@ -716,7 +716,6 @@ class Random(Expression):
 
 
 class Col(Expression):
-
     contains_column_references = True
 
     def __init__(self, alias, target, output_field=None):
